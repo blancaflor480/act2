@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f6f7fb;
+}
+.container {
+    background-color: #17202A;
+    max-width: 80%; /* Use max-width instead of fixed width */
+    height: auto; /* Change height to auto for responsiveness */
+    text-align: center;
+    padding: 50px;
+    font-size: 1.6rem;
+    border-radius: 2%;
+    color: #f6f7fb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a box shadow for better visibility */
+}
+.score {
+    display: flex;
+    flex-wrap: wrap; /* Allow flex items to wrap */
+    justify-content: center;
+    margin: 10px;
+}
+.pick {
+    margin: 35px;
+}
+.pick button {
+    border: 5px solid transparent;
+    font-size: 5rem;
+    border-radius: 50px;
+    min-width: 100px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: #5DADE2;
+    transition: background-color 0.5s ease;
+}
+.pick button:hover {
+    background-color: white;
+}
+.player {
+    font-size: 1.1rem;
+    width: 100%; 
+    max-width: 50%; 
+    font-weight: 600;
+}
+.cpu {
+    font-size: 1.1rem;
+    width: 100%; 
+    max-width: 50%; 
+    font-weight: 600;
+}
+.text {
+    padding: 10px;
+    font-size: 1rem;
+}
+#playerdisplay{
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+#computerdisplay{
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+#result {
+    margin: 30px;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.greenText{
+    color: green;
+}
+.redText{
+    color: red;
+
+}
+.scoredisplay{
+    font-size: 1rem;
+}
